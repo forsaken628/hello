@@ -1,0 +1,27 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "*",
+    "express-authentication": "^0.3.2",
+    "express-session": "^1.14.1",
+    "moment": "^2.15.2",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.6",
+    "bluebird": "*"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
